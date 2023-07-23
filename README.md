@@ -6,7 +6,7 @@
 
 ## Ejercicio 6
 
-> _Crear un proyecto de react que muestre un formulario con un input y un button que permite guardar un color en el localstorage, similar a la siguiente imagen:_ > ![imagenEjemplo](https://github.com/Moricegram/ReactTP06/blob/main/ejemplo06.jpg)
+> _Crear un proyecto de react que muestre un formulario con un input y un button que permite guardar un color en el localstorage, similar a la siguiente imagen:_ > ![imagenEjemplo](https://github.com/Moricegram/ReactTP06/blob/main/ejemplo06.JPG)
 
 ### Propósitos del Ejercicio
 
