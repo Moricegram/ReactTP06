@@ -2,6 +2,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { useState } from "react";
 import { Form, Button } from "react-bootstrap";
 import Card from 'react-bootstrap/Card';
+import BookCards from "./BookCards";
 
 const FormColor = () => {
     // Creo una variable de estado para almacenar el color ingresado
@@ -15,7 +16,7 @@ const FormColor = () => {
 
     return (
         <>
-        <Card>
+        <Card style={{ width: '71rem'}}>
         <Card.Header>Administrar colores</Card.Header>
         <Card.Body className="d-flex custom-card-bg ">
             <Card style={{ width: '6rem', height: '5rem', backgroundColor: color}} />
@@ -31,6 +32,7 @@ const FormColor = () => {
             <Button variant="primary">Guardar</Button>
           </Card.Footer>
           </Card>
+          <BookCards></BookCards>
         </>
     );
 };
