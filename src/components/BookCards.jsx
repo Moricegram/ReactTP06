@@ -11,7 +11,6 @@ const BookCards = () => {
         <ItemCard></ItemCard>
         <ItemCard></ItemCard>
         <ItemCard></ItemCard>
-        <ItemCard></ItemCard>
         </div>
    
     );
